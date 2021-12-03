@@ -18,10 +18,10 @@ def takeinput():
             head=newNode
             tail=newNode
         else:
-            # tail.next=newNode
-            # tail=newNode
-            curr =head
-            while curr.next is not None:
-                curr=curr.next
-            curr.next=newNode
+            tail.next=newNode
+            tail=newNode
+#             curr =head
+#             while curr.next is not None:
+#                 curr=curr.next
+#             curr.next=newNode
     return head
